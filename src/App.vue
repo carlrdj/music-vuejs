@@ -1,10 +1,6 @@
 <template lang="pug">
   #app
-<<<<<<< HEAD
-    img(src='https://vuejs.org/images/logo.png')
-=======
     img(src='https://carlrdj.github.io/music-vuejs/dist/logo.png')
->>>>>>> 54e1c929ae0e07e04d1160d665a8f7ff0c180799
     h1 {{ title }}
     select(v-model="selectedCountry")
       option(v-for="country in countries" :value="country.value") {{ country.name }}
